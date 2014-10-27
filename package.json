@@ -1,6 +1,6 @@
 {
   "name": "hitbox-api",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A package that helps the user easily work with the hitbox.tv API.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,13 @@
   "keywords": [
     "hitbox",
     "api"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GamingTom/node.js-hitbox-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GamingTom/node.js-hitbox-api/issues"
+  },
+  "homepage": "https://github.com/GamingTom/node.js-hitbox-api"
 }
