@@ -1,0 +1,19 @@
+{
+  "name": "hitbox-api",
+  "version": "0.0.5",
+  "description": "A package that helps the user easily work with the hitbox.tv API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GamingTom",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.46.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "hitbox",
+    "api"
+  ]
+}
