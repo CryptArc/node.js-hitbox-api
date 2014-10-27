@@ -3,9 +3,6 @@
   "version": "0.0.6",
   "description": "A package that helps the user easily work with the hitbox.tv API.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "GamingTom",
   "license": "ISC",
   "dependencies": {
@@ -23,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/GamingTom/node.js-hitbox-api/issues"
   },
-  "homepage": "https://github.com/GamingTom/node.js-hitbox-api"
+  "homepage": "https://github.com/GamingTom/node.js-hitbox-api",
+  "scripts": {
+    "test": "sudo node ./test.js"
+  }
 }
