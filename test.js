@@ -1,37 +1,54 @@
 var hb = require("./index.js");
 //var hb = require("hitbox-api");
 
-hb.media(function(err, res, data){
-	console.log(err, res.statusCode, data);
-});
+describe("Test", function() {
+	it("Test 1: media", function(){
+		hb.media(function(err, res, data){
+			console.log(err, res.statusCode, data);
+		});
+	});
 
-hb.mediaUser("GamingTom", function(err, res, data){
-	console.log(err, res.statusCode, data);
-});
+	it("Test 2: mediaUser", function(){
+		hb.mediaUser("GamingTom", function(err, res, data){
+			console.log(err, res.statusCode, data);
+		});
+	});
 
-hb.mediaFollowing("GamingTom", function(err, res, data){
-	console.log(err, res.statusCode, data);
-});
+	it("Test 3: mediaFollowing", function(){
+		hb.mediaFollowing("GamingTom", function(err, res, data){
+			console.log(err, res.statusCode, data);
+		});
+	});
 
-hb.user("GamingTom", function(err, res, data){
-	console.log(err, res.statusCode, data);
-});
+	it("Test 4: user", function(){
+		hb.user("GamingTom", function(err, res, data){
+			console.log(err, res.statusCode, data);
+		});
+	});
 
-hb.followers("GamingTom", "0", "20", function(err, res, data){
-	console.log(err, res.statusCode, data);
-});
+	it("Test 5: followers", function(){
+		hb.followers("GamingTom", "0", "20", function(err, res, data){
+			console.log(err, res.statusCode, data);
+		});
+	});
 
-hb.games(function(err, res, data){
-	console.log(err, res.statusCode, data);
-});
+	it("Test 6: games", function(){
+		hb.games(function(err, res, data){
+			console.log(err, res.statusCode, data);
+		});
+	});
 
-hb.teams(function(err, res, data){
-	console.log(err, res.statusCode, data);
-});
+	it("Test 7: teams", function(){
+		hb.teams(function(err, res, data){
+			console.log(err, res.statusCode, data);
+		});
+	});
 
-hb.team("hitbox", function(err, res, data){
-	console.log(err, res.statusCode, data);
-});
+	it("Test 8: team", function(){
+		hb.team("hitbox", function(err, res, data){
+			console.log(err, res.statusCode, data);
+		});
+	});
 
 /*hb.API.authToken("username", "password", "desktop", function(err, res, data){
 	console.log(err, res, data);
@@ -54,3 +71,5 @@ hb.team("hitbox", function(err, res, data){
 		};
 	};
 });*/
+
+});

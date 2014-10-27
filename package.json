@@ -6,6 +6,7 @@
   "author": "GamingTom",
   "license": "ISC",
   "dependencies": {
+    "mocha": "^2.0.1",
     "request": "^2.46.0"
   },
   "devDependencies": {},
@@ -22,6 +23,6 @@
   },
   "homepage": "https://github.com/GamingTom/node.js-hitbox-api",
   "scripts": {
-    "test": "sudo node ./test.js"
+    "test": "mocha ./test.js"
   }
 }
