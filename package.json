@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/GamingTom/node.js-hitbox-api",
   "scripts": {
-    "test": "sudo npm install mocha &&  mocha ./test.js && sudo npm uninstall mocha"
+    "test": "mocha ./test.js"
   }
 }
