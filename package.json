@@ -1,12 +1,11 @@
 {
   "name": "hitbox-api",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A package that helps the user easily work with the hitbox.tv API.",
   "main": "index.js",
   "author": "GamingTom",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^2.0.1",
     "request": "^2.46.0"
   },
   "devDependencies": {},
@@ -23,6 +22,6 @@
   },
   "homepage": "https://github.com/GamingTom/node.js-hitbox-api",
   "scripts": {
-    "test": "mocha ./test.js"
+    "test": "sudo npm install mocha &&  mocha ./test.js && sudo npm uninstall mocha"
   }
 }

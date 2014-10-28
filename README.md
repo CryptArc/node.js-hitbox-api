@@ -1,7 +1,5 @@
 # Node.js [hitbox.tv](http://hitbox.tv) API.
 
-
-
 Firstly, enter this line at the top of the document, replacing "hb" with whatever you like:
 
 ```javascript
