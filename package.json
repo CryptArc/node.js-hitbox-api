@@ -1,6 +1,6 @@
 {
   "name": "hitbox-api",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A package that helps the user easily work with the hitbox.tv API.",
   "main": "index.js",
   "author": "GamingTom",
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/GamingTom/node.js-hitbox-api",
   "scripts": {
-    "test": "mocha ./test.js"
+    "test": "mocha"
   }
 }

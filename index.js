@@ -30,13 +30,13 @@ var API = {
 		        request({
 		            url: "https://www.hitbox.tv/api/media/live/list.json?follower_id=" + id,json: true
 		        }, function(err, res, data) {
-		        if (err || data == "no_media_found") {
-		    		var err = "err02";
-		    		callback(err, res, data);
-		    	}	
-		        else {   
-		        	callback(err, res, data);
-		        };
+			        if (err || data == "no_media_found") {
+			    		var err = "err02";
+			    		callback(err, res, data);
+			    	}	
+			        else {   
+			        	callback(err, res, data);
+			        };
 		        });
 		    };
 	    });
@@ -51,7 +51,7 @@ var API = {
 	},
 	followers: function(username, offset, limit, callback){
 		request({
-			url: "http://api.hitbox.tv/followers/user/" + username + ".json?offset=0&limit=10",json: true
+			url: "http://api.hitbox.tv/followers/user/" + username + ".json?offset=" + offset + "&limit=" limit,json: true
 		}, function (err, res, data) {
 			callback(err, res, data);
 		});
@@ -67,7 +67,7 @@ var API = {
 
 	teams: function(callback){
 		request({
-			url: "http://api.hitbox.tv/teams.json",json: true
+			url: "http://api.hitbox.tv/teams",json: true
 		}, function (err, res, data) {
 			callback(err, res, data);
 		});
