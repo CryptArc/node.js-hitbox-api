@@ -51,7 +51,7 @@ var API = {
 	},
 	followers: function(username, offset, limit, callback){
 		request({
-			url: "http://api.hitbox.tv/followers/user/" + username + ".json?offset=" + offset + "&limit=" limit,json: true
+			url: "http://api.hitbox.tv/followers/user/" + username + ".json?offset=" + offset + "&limit=" + limit,json: true
 		}, function (err, res, data) {
 			callback(err, res, data);
 		});
